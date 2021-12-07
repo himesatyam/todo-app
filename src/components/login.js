@@ -1,11 +1,9 @@
 import { useState } from 'react';
 import '../styles/login.css';
 
-const Login = ({setLogin}) => {
-    
-    const [flag, setFlag] = useState(true);
+const Login = () => {
     return (
-        flag ? <h1 className="wait">Welcome to todo app, page is loading...</h1> : <div className="container outer">
+        <div className="container outer">
             <h1>ToDo App</h1>
             <hr/>
             <div className="container main">
