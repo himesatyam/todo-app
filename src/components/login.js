@@ -11,11 +11,11 @@ const Login = () => {
                     <hr />
                     <form>
                         <div className="mb-3">
-                            <label for="email" className="form-label">Email address</label>
+                            <label htmlFor="email" className="form-label">Email address</label>
                             <input type="email" className="form-control" id="email" placeholder="name@example.com" />
                         </div>
                         <div className="mb-3">
-                            <label for="password" className="form-label">Password</label>
+                            <label htmlFor="password" className="form-label">Password</label>
                             <input type="password" className="form-control" id="password" placeholder="enter password" />
                         </div>
                         <div className="mb-3">
@@ -28,7 +28,7 @@ const Login = () => {
                     <hr />
                     <form>
                         <div className="mb-3">
-                            <label for="name" className="form-label">Email address</label>
+                            <label htmlFor="name" className="form-label">Email address</label>
                             <input type="text" className="form-control" id="name" placeholder="e.g. John Doe" />
                         </div>
                     </form>
