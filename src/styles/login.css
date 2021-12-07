@@ -1,0 +1,16 @@
+.outer h1 {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+}
+
+.login {
+    border-right: 1px solid skyblue;
+}
+
+.wait {
+    margin: auto;
+    text-align: center;
+}
