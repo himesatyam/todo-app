@@ -10,13 +10,13 @@ const Login = () => {
                     <h3>Login</h3>
                     <hr />
                     <form>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="email" placeholder="name@example.com" />
+                        <div className="mb-3">
+                            <label for="email" className="form-label">Email address</label>
+                            <input type="email" className="form-control" id="email" placeholder="name@example.com" />
                         </div>
-                        <div class="mb-3">
-                            <label for="password" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="enter password" />
+                        <div className="mb-3">
+                            <label for="password" className="form-label">Password</label>
+                            <input type="password" className="form-control" id="password" placeholder="enter password" />
                         </div>
                         <div className="mb-3">
                             <button type="submit" className="btn btn-primary">Login</button>
@@ -27,9 +27,9 @@ const Login = () => {
                     <h3>Signup</h3>
                     <hr />
                     <form>
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Email address</label>
-                            <input type="text" class="form-control" id="name" placeholder="e.g. John Doe" />
+                        <div className="mb-3">
+                            <label for="name" className="form-label">Email address</label>
+                            <input type="text" className="form-control" id="name" placeholder="e.g. John Doe" />
                         </div>
                     </form>
                 </div>
